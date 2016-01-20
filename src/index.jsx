@@ -1,20 +1,11 @@
 import React      from 'react';
 import { render } from 'react-dom';
 
+import WrapperElement from './wrapper.jsx';
+
 require ('expose?$!expose?jQuery!jquery');
 require ('bootstrap-webpack');
 require ("font-awesome-webpack");
-
-// Blueprint Component
-const WrapperElement = React.createClass ({
-  render () {
-    return (
-      <div className="outer-wrapper">
-        <div className="component-wrapper">{this.props.children}</div>
-      </div>
-    );
-  }
-});
 
 const Component = React.createClass ({
   // React Life Cycle Methods
