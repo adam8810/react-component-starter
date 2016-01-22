@@ -40,7 +40,7 @@ const Component = React.createClass ({
       <div>
         <WrapperElement>
           <h1>Component Blueprint</h1>
-          <button style={buttonColor} className="btn btn-primary"><i className="fa fa-check"></i>> Bootstrap Button</button >
+          <button style={buttonColor} className="btn btn-primary">><i className="fa fa-check"></i> Bootstrap Button</button >
           </WrapperElement>
       </div>
     );
