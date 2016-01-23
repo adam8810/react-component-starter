@@ -7,6 +7,12 @@ require ('expose?$!expose?jQuery!jquery');
 require ('bootstrap-webpack');
 require ("font-awesome-webpack");
 
+const SkillsComponent = React.createClass ({
+  render () {
+    return ();
+  }
+});
+
 const Component = React.createClass ({
   // React Life Cycle Methods
   // https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods
@@ -40,7 +46,7 @@ const Component = React.createClass ({
       <div>
         <WrapperElement>
           <h1>Component Blueprint</h1>
-          <button style={buttonColor} className="btn btn-primary">><i className="fa fa-check"></i> Bootstrap Button</button>
+          <button style={buttonColor} className="btn btn-primary"><i className="fa fa-check"></i> Bootstrap Button</button>
           </WrapperElement>
       </div>
     );
