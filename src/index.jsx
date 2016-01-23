@@ -7,12 +7,6 @@ require ('expose?$!expose?jQuery!jquery');
 require ('bootstrap-webpack');
 require ("font-awesome-webpack");
 
-const SkillsComponent = React.createClass ({
-  render () {
-    return ();
-  }
-});
-
 const Component = React.createClass ({
   // React Life Cycle Methods
   // https://facebook.github.io/react/docs/component-specs.html#lifecycle-methods
